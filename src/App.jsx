@@ -6,8 +6,6 @@ import SellerDashboard from "./pages/SellerDashboard"
 import BuyerDashboard from "./pages/BuyerDashboard"
 import Navbar from "./components/Navbar"
 
-
-
 export default function App() {
   return (
     <>
