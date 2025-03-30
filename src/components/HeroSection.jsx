@@ -8,7 +8,7 @@ const HeroSection = () => {
           type="search"
           id="search"
           name="search"
-          className="py-5 px-3 w-[80vw] text-xl sm:text-3xl
+          className="py-5 px-3 w-[80vw] sm:w-[40vw] text-xl sm:text-3xl
             mx-auto outline-none border-b-2 bg-bgColor"
           placeholder="Search your asset....."
         />
