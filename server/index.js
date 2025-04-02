@@ -2,6 +2,9 @@
 const { readdirSync } = require("fs")
 const express = require('express');
 const { connectDb } = require("./connection");
+const cors = require("cors")
+
+
 const app = express();
 
 // env file import
@@ -9,6 +12,11 @@ const dotenv = require("dotenv");
 
 //dotenv binding
 dotenv.config();
+
+//Cors
+app.use(cors());
+//json
+app.use(express.json());
 
 //PORT
 const port = process.env.PORT || 5000
